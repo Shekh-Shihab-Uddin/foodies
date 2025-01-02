@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin: 5rem auto;
+  width: 90%;
+  max-width: 75rem;
+}
+
+.slideshow {
+  margin-left: 6rem;
+  width: 30rem;
+  height: 25rem;
+}
+
+@media (max-width: 768px) {
+  .slideshow {
+    margin-left: 0rem;
+    min-width: 18rem;
+    min-height: 10rem;
+  }
+}
+
+.hero {
+  color: #dde1bf;
+  font-size: 1.5rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #59665f, #81967f);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cta {
+  font-size: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.cta a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(90deg, #59665f, #81967f);
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cta a:hover,
+.cta a:active {
+  background: radial-gradient(#59665f, #81967f);
+}
+
+.cta a:first-child {
+  background: transparent;
+  font-weight: normal;
+  color: #81967f;
+  padding-left: 0;
+}
+
+.cta a:first-child:hover,
+.cta a:first-child:active {
+  background: transparent;
+  color: #59665f;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  color: #dde1bf;
+  font-size: 1.5rem;
+  max-width: 50rem;
+  width: 90%;
+  margin: 2rem auto;
+  text-align: center;
+}

@@ -1,0 +1,7 @@
+.active {
+  background: linear-gradient(90deg, #59f06f, #59c76f);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 18px rgba(89, 229, 111, 0.8);
+}
