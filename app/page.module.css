@@ -17,7 +17,10 @@
   .slideshow {
     margin-left: 0rem;
     min-width: 18rem;
-    min-height: 10rem;
+    min-height: 15rem;
+  }
+  .header {
+    flex-direction: column;
   }
 }
 
@@ -71,6 +74,15 @@
 .cta a:first-child:active {
   background: transparent;
   color: #59665f;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+  }
+  .cta {
+    justify-content: center;
+  }
 }
 
 .section {
